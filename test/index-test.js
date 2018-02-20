@@ -71,9 +71,15 @@ describe('sayHiToGrandma(string)', function() {
   })
 })
 
-function sayHiToGrandma(string) {
 var lowercase = 'hello'
 lowercase.toLowerCase ('hello') === lowercase
+var uppercase = 'hello'
+lowercase.toUpperCase ('hello') === uppercase
+var lowercase = 'hello'
+lowercase.toLowerCase ('hello') === lowercase
+
+function sayHiToGrandma(string) {
+
 
   return hello.toLowerCase ()
 
