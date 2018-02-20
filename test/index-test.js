@@ -4,9 +4,7 @@ describe('shout(string)', function () {
     expect(shout('hello')).toEqual('HELLO')
   })
 })
-function shout(string) {
-  return string.toUpperCase ()
-}
+
 
 
 describe('whisper(string)', function() {
