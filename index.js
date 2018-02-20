@@ -23,5 +23,8 @@ if (string === whisper(string)) {
 }
 if (string === shout(string)) {
   return "YES INDEED!"
+
+} else {
+  return "I love you, too."
 }
 }
