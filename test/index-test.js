@@ -13,9 +13,6 @@ describe('whisper(string)', function() {
   })
 })
 
-function whisper(string) {
-  return string.toLowerCase ()
-}
 
 
 describe('logShout(string)', function() {
@@ -30,9 +27,7 @@ describe('logShout(string)', function() {
   })
 })
 
-function logShout(string) {
-  console.log (string.toUpperCase ())
-}
+
 
 
 
@@ -49,15 +44,7 @@ describe('logWhisper(string)', function() {
   })
 })
 
-function logWhisper(string) {
-  console.log (string.toLowerCase ())
-}
 
-var lowercase = 'hello'
-
-var uppercase = 'hello'
-
-var message = `${"I love you, too."}`
 
 
 describe('sayHiToGrandma(string)', function() {
