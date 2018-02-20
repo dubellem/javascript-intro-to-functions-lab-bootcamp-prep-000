@@ -77,13 +77,11 @@ describe('sayHiToGrandma(string)', function() {
 })
 
 
-
 function sayHiToGrandma(string) {
-
 
   return hello.toLowerCase ()
 
   return 'HELLO'.toUpperCase ()
 
-  return "I love you, too.".toUpperCase ()
+  return message.toUpperCase ()
 }
